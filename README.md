@@ -17,7 +17,7 @@
             Show stops between MIT and Harvard
         </button>
     </div>
-    <script>
+ <script>
     const busStops = [
       [-71.093729, 42.359244],
       [-71.094915, 42.360175],
@@ -52,7 +52,8 @@ setTimeout(() => {
 if (typeof module !== 'undefined') {
   module.exports = { move, counter, marker, busStops };
 }
-    </script>
+</script>
+    
 <style>
 body {
   margin: 0;
